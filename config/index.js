@@ -1,16 +1,16 @@
 const siteMetadata = {
-  siteUrl: "https://reddit.buzzing.cc",
+  siteUrl: "https://changemyview.buzzing.cc",
   author: `Reddit`,
   locale: "zh",
-  title: "Reddit 热门",
-  shortTitle: "Reddit热门",
-  description: "用中文浏览Reddit热门内容",
-  keywords: ["buzzing"],
+  title: "你可以改变我的想法吗？",
+  shortTitle: "改变我的想法",
+  description: "用中文浏览Reddit-Change My View的热帖",
+  keywords: ["buzzing", "改变我的想法", "reddit"],
   menuLinks: [
-    {
-      name: "每周精选",
-      url: "/issues",
-    },
+    // {
+    //   name: "每周精选",
+    //   url: "/issues",
+    // },
     {
       name: "RSS",
       url: "/rss.xml",
@@ -19,8 +19,13 @@ const siteMetadata = {
   ],
   social: [
     {
-      name: `Reddit`,
-      url: `https://www.reddit.com/`,
+      name: `Change My View`,
+      url: `https://www.reddit.com/r/changemyview/`,
+      external: true,
+    },
+    {
+      name: `Buzzing`,
+      url: `https://www.buzzing.cc/`,
       external: true,
     },
   ],
@@ -32,25 +37,55 @@ const siteMetadata = {
       description: `See what's buzzing on Reddit in your native language`,
       keywords: ["buzzing"],
       menuLinks: [
-        {
-          name: "Weekly Selection",
-          url: "/issues",
-        },
+        // {
+        //   name: "Weekly Selection",
+        //   url: "/issues",
+        // },
         {
           name: "RSS",
-          url: "/rss.xml",
+          url: "/en/rss.xml",
           prefetch: false,
         },
       ],
       social: [
         {
-          name: `Reddit`,
-          url: `https://www.reddit.com/`,
+          name: `Change My View`,
+          url: `https://www.reddit.com/r/changemyview/`,
           external: true,
         },
         {
           name: `Buzzing`,
-          url: `https://www.buzzing.cc/`,
+          url: `https://www.buzzing.cc/en/`,
+          external: true,
+        },
+      ],
+    },
+    {
+      locale: "zh-Hant",
+      title: "你可以改變我的想法嗎？",
+      shortTitle: "改變我的想法",
+      description: "用中文瀏覽Reddit-Change My View的熱帖",
+      keywords: ["buzzing", "改變我的想法", "reddit"],
+      menuLinks: [
+        // {
+        //   name: "Weekly Selection",
+        //   url: "/issues",
+        // },
+        {
+          name: "RSS",
+          url: "/zh-Hant/rss.xml",
+          prefetch: false,
+        },
+      ],
+      social: [
+        {
+          name: `Change My View`,
+          url: `https://www.reddit.com/r/changemyview/`,
+          external: true,
+        },
+        {
+          name: `Buzzing`,
+          url: `https://www.buzzing.cc/zh-Hant/`,
           external: true,
         },
       ],

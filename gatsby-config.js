@@ -23,8 +23,7 @@ if (isDev) {
         "data/tweet-placeholder/1.json",
         "data/hn-placeholder/1.json",
         "data/ph-placeholder/1.json",
-        "data/reddit-top/**",
-        "data/reddit-top-issues/**",
+        "data/reddit-changemyview/**",
       ],
     },
   });
@@ -41,8 +40,7 @@ if (isDev) {
         "data/tweet-placeholder/1.json",
         "data/hn-placeholder/1.json",
         "data/ph-placeholder/1.json",
-        "data/reddit-top/**",
-        "data/reddit-top-issues/**",
+        "data/reddit-changemyview/**",
       ],
     },
   });
@@ -71,7 +69,7 @@ plugins = plugins.concat([
       background_color: `#f7f0eb`,
       theme_color: `#FF4500`,
       display: `standalone`,
-      icon: `src/images/icon.png`,
+      icon: `src/images/icon.jpg`,
       localize: siteMetadata.localize.map((item) => {
         return {
           start_url: `/${item.locale}/`,
@@ -88,7 +86,7 @@ plugins = plugins.concat([
     options: {
       // You can add multiple tracking ids and a pageview event will be fired for all of them.
       trackingIds: [
-        "G-GQVR44BC8T", // Google Analytics / GA
+        "G-P5LKJ38E0Q", // Google Analytics / GA
       ],
     },
   },
