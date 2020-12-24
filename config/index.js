@@ -32,10 +32,10 @@ const siteMetadata = {
   localize: [
     {
       locale: "en",
-      title: `Buzzing on Reddit`,
-      shortTitle: "BuzzReddit",
-      description: `See what's buzzing on Reddit in your native language`,
-      keywords: ["buzzing"],
+      title: `Buzzing on Change My View`,
+      shortTitle: "BuzzCMV",
+      description: `See what's buzzing on Reddit Change My View Subreddit in your native language`,
+      keywords: ["buzzing", "Change My View", "Change My Mind"],
       menuLinks: [
         // {
         //   name: "Weekly Selection",
