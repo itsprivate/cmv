@@ -18,13 +18,7 @@ if (isDev) {
       remote: `git@github.com:itsprivate/ts-test.git`,
       branch: `main`,
       // Only import the docs folder from a codebase.
-      patterns: [
-        "data/reddit-placeholder/1.json",
-        "data/tweet-placeholder/1.json",
-        "data/hn-placeholder/1.json",
-        "data/ph-placeholder/1.json",
-        "data/reddit-changemyview/**",
-      ],
+      patterns: ["data/*-placeholder/1.json", "data/reddit-changemyview/**"],
     },
   });
 } else {
@@ -35,13 +29,7 @@ if (isDev) {
       remote: `https://github.com/itsprivate/ts.git`,
       branch: `main`,
       // Only import the docs folder from a codebase.
-      patterns: [
-        "data/reddit-placeholder/1.json",
-        "data/tweet-placeholder/1.json",
-        "data/hn-placeholder/1.json",
-        "data/ph-placeholder/1.json",
-        "data/reddit-changemyview/**",
-      ],
+      patterns: ["data/*-placeholder/1.json", "data/reddit-changemyview/**"],
     },
   });
 }

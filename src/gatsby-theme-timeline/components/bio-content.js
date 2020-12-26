@@ -12,18 +12,18 @@ export default function Bio() {
       <Trans>
         See what's buzzing on{" "}
         <LinkUI
-          href="https://reddit.com"
+          href="https://www.reddit.com/r/changemyview/"
           target="_blank"
           rel="noopener noreferrer"
           sx={css({
             lineHeight: 2,
           })}
         >
-          Reddit
+          Change My View
         </LinkUI>{" "}
         in your native language on{" "}
         <LinkUI as={Link} to="/">
-          reddit.buzzing.cc
+          changemyview.buzzing.cc
         </LinkUI>
       </Trans>
     </>
