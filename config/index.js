@@ -44,7 +44,7 @@ const siteMetadata = {
       menuLinks: [
         // {
         //   name: "Weekly Selection",
-        //   url: "/issues",
+        //   url: "/en/issues",
         // },
         {
           name: "RSS",
@@ -73,8 +73,8 @@ const siteMetadata = {
       keywords: ["buzzing", "改變我的想法", "reddit"],
       menuLinks: [
         // {
-        //   name: "Weekly Selection",
-        //   url: "/issues",
+        //   name: "每週精選",
+        //   url: "/zh-Hant/issues",
         // },
         {
           name: "RSS",

@@ -18,7 +18,11 @@ if (isDev) {
       remote: `git@github.com:itsprivate/ts-test.git`,
       branch: `main`,
       // Only import the docs folder from a codebase.
-      patterns: ["data/*-placeholder/1.json", "data/reddit-changemyview/**"],
+      patterns: [
+        "data/*-placeholder/1.json",
+        "data/reddit-changemyview/**",
+        "data/reddit-changemyview-issues/**",
+      ],
     },
   });
 } else {
@@ -29,7 +33,11 @@ if (isDev) {
       remote: `https://github.com/itsprivate/ts.git`,
       branch: `main`,
       // Only import the docs folder from a codebase.
-      patterns: ["data/*-placeholder/1.json", "data/reddit-changemyview/**"],
+      patterns: [
+        "data/*-placeholder/1.json",
+        "data/reddit-changemyview/**",
+        "data/reddit-changemyview-issues/**",
+      ],
     },
   });
 }
@@ -37,12 +45,12 @@ plugins = plugins.concat([
   {
     resolve: `gatsby-theme-buzzing`,
     options: {
-      tweetTypeName: ["TweetsJson", "twitterStatusesUserTimelineMyTweet"],
+      tweetTypeName: ["TweetJson", "twitterStatusesUserTimelineMyTweet"],
       redditTypeName: ["RedditJson"],
-      issueTypeName: ["RedditTopIssuesJson"],
+      issueTypeName: ["RedditChangemyviewIssuesJson"],
       localesPath: localesPath,
       disqus: {
-        shortname: "reddit-top",
+        shortname: "buzzingcc",
       },
     },
   },
