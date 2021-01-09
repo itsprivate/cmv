@@ -6,6 +6,8 @@ const siteMetadata = {
   shortTitle: "改变我的想法",
   description: "用中文浏览Reddit-Change My View的热帖",
   keywords: ["buzzing", "改变我的想法", "reddit"],
+  telegram: "@buzzingcc",
+  telegram_chat_id: "-1001406368978",
   menuLinks: [
     // {
     //   name: "每周精选",
