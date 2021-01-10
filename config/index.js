@@ -1,6 +1,6 @@
 const siteMetadata = {
   siteUrl: "https://changemyview.buzzing.cc",
-  author: `Reddit`,
+  author: `Buzzing.cc`,
   locale: "zh",
   title: "你可以改变我的想法吗？",
   shortTitle: "改变我的想法",
