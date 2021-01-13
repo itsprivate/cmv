@@ -67,7 +67,7 @@ plugins = plugins.concat([
       background_color: `#f7f0eb`,
       theme_color: `#FF4500`,
       display: `standalone`,
-      icon: `src/images/icon.png`,
+      icon: `src/images/icon.jpg`,
       telegram: siteMetadata.telegram,
       telegram_chat_id: siteMetadata.telegram_chat_id,
       localize: siteMetadata.localize.map((item) => {
