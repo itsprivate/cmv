@@ -9,10 +9,22 @@ const siteMetadata = {
   telegram: "@buzzingcc",
   telegram_chat_id: "-1001406368978",
   menuLinks: [
-    // {
-    //   name: "每周精选",
-    //   url: "/issues",
-    // },
+    {
+      name: "每周精选",
+      url: "/issues",
+    },
+  ],
+  subscriptions: [
+    {
+      name: "Twitter @buzzingcc",
+      url: "https://twitter.com/buzzingcc",
+      external: true,
+    },
+    {
+      name: "Telegram @buzzingcc",
+      url: "https://t.me/buzzingcc",
+      external: true,
+    },
     {
       name: "RSS",
       url: "/rss.xml",
@@ -44,14 +56,9 @@ const siteMetadata = {
       description: `See what's buzzing on Reddit Change My View Subreddit in your native language`,
       keywords: ["buzzing", "Change My View", "Change My Mind"],
       menuLinks: [
-        // {
-        //   name: "Weekly Selection",
-        //   url: "/en/issues",
-        // },
         {
-          name: "RSS",
-          url: "/en/rss.xml",
-          prefetch: false,
+          name: "Weekly Selection",
+          url: "/en/issues",
         },
       ],
       social: [
@@ -74,14 +81,9 @@ const siteMetadata = {
       description: "用中文瀏覽Reddit-Change My View的熱帖",
       keywords: ["buzzing", "改變我的想法", "reddit"],
       menuLinks: [
-        // {
-        //   name: "每週精選",
-        //   url: "/zh-Hant/issues",
-        // },
         {
-          name: "RSS",
-          url: "/zh-Hant/rss.xml",
-          prefetch: false,
+          name: "每週精選",
+          url: "/zh-Hant/issues",
         },
       ],
       social: [
