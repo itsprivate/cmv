@@ -99,6 +99,24 @@ const siteMetadata = {
         },
       ],
     },
+    {
+      locale: "ja",
+      title: "気が変わってもらえますか？",
+      shortTitle: "気が変わってもらえますか",
+      description: "人気のReddit気が変わってもらえますか記事を日本語で閲覧",
+      keywords: ["buzzing", "気が変わってもらえますか？",],
+      menuLinks: [
+        // {
+        // name: "每週精選",
+        // url: "/zh-Hant/issues",
+        // },
+        // {
+        //   name: "RSS",
+        //   url: "/zh-Hant/rss.xml",
+        //   prefetch: false,
+        // },
+      ],
+    }
   ],
 };
 
