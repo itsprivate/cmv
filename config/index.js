@@ -8,7 +8,7 @@ const siteMetadata = {
   keywords: ["buzzing", "改变我的想法", "reddit"],
   telegram: "@buzzingcc",
   telegram_chat_id: "-1001406368978",
-  iconUrl: "https://changemyview.buzzing.cc/avatar.png",
+  iconUrl: "https://changemyview.buzzing.cc/avatar.jpg",
   menuLinks: [
     {
       name: "每周精选",
